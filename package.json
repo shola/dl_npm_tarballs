@@ -1,0 +1,21 @@
+{
+    "author": "Mike Situ michael.o.situ@gmail.com",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "main": "./index.js",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "download": "^6.2.5",
+        "request": "^2.81.0"
+    },
+    "devDependencies": {
+        "get-folder-size": "~1.0.0",
+        "tape": "~4.6.0",
+        "run-series": "^1.1.4"
+    },
+    "engines": {
+        "node": ">=7.6.0"
+    },
+    "license": "MIT"
+}
